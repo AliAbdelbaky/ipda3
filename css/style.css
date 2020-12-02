@@ -6,6 +6,10 @@ second color : #273B50
 body {
   font-family: "Cairo", sans-serif;
 }
+body input:focus,
+body button:focus {
+  outline: none;
+}
 /* start navBar */
 nav a span img {
   width: 162px;
